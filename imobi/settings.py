@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-b+lr4y0q(r4wmz!a)ev503+5!sjy*j30lj=^m3))9o%#yme@g(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'imobi.wsgi.app'
+WSGI_APPLICATION = 'imobi.wsgi.application'
 
 
 # Database
