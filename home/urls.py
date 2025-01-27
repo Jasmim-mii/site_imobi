@@ -9,3 +9,5 @@ urlpatterns = [
     path('agendamentos', views.schenduling, name="agendamentos"),
     path('cancelar_agendamento/<str:id>', views.removed_scheduling, name="cancelar_agendamento")
 ]
+urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT) 
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
