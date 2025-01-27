@@ -10,7 +10,7 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "media"
+        "distDir": "/media/"
       }
     }
   ],
@@ -24,5 +24,5 @@
       "dest": "imobi/wsgi.py"
     }
   ],
-  "outputDirectory": "media"
+  "outputDirectory": "/media/"
 }
